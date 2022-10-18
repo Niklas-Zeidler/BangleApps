@@ -63,7 +63,7 @@ function startV60(){
 
 function showMainMenu() {
   const menu = {
-    "": { "title": /*LANG*/"Alarms & Timers" },
+    "": { "title": /*LANG*/"Coffee logger" },
     "< Back": () => load(),
     /*LANG*/"Aeropress": () => startAeropress(),
     /*LANG*/"Espresso": () => startEspresso(),
