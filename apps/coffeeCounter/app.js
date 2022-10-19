@@ -101,10 +101,11 @@ Bangle.setUI({mode: "updown"}, function(dir) {
     draw();
   }
 });
+
+// First draw...
+draw();
 // Load widgets
 Bangle.loadWidgets();
 Bangle.drawWidgets();
 
-// First draw...
-draw();
 mainMenu();
