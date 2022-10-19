@@ -1,14 +1,14 @@
 { "id": "coffee_counter",
   "name": "Coffee logger and timer",
   "shortName":"Coffee",
-  "version":"0.02",
+  "version":"0.03",
   "description": "Logs different types of coffee and provides a simple timer for their various brewing methods",
   "icon": "coffee_counter.png",
   "tags": "",
   "supports" : ["BANGLEJS2"],  
   "readme": "README.md",
   "storage": [
-    {"name":"coffe_counter.app.js","url":"app.js"},
+    {"name":"coffe_counter.app.js","url":"coffee_counter.js"},
     {"name":"coffee_counter.img","url":"app-icon.js","evaluate":true}
   ]
 }

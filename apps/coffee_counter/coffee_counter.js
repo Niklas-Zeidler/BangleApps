@@ -81,8 +81,6 @@ function showMainMenu() {
 // clear the screen
 g.clear();
 
-var n = 0;
-
 // redraw the screen
 function draw() {
   g.reset().clearRect(Bangle.appRect);

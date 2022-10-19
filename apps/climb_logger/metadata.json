@@ -1,7 +1,7 @@
 { "id": "climb_logger",
   "name": "Climbing logger",
   "shortName":"Climb",
-  "version":"0.02",
+  "version":"0.03",
   "description": "An app to log all your climbs",
   "icon": "climb_logger.png",
   "tags": "",
