@@ -66,17 +66,14 @@ function startV60(){
 }
 
 function mainMenu() {
-  g.clear();
-  Bangle.loadWidgets();
-  Bangle.drawWidgets(); 
-  var menu = {
+  var menuinfo = {
     "": { "title": /*LANG*/"Coffee logger" },
     "< Back": () => load(),
     /*LANG*/"Aeropress": () => startAeropress(),
     /*LANG*/"Espresso": () => startEspresso(),
     /*LANG*/"V60": () => startV60(),
   };
-  E.showMenu(menu);
+  E.showMenu(menuinfo);
 }
 // clear the screen
 g.clear();
