@@ -11,7 +11,7 @@ function outOfTime() {
   buttons : {"Ok":true,"Again":false}
 }).then(function(v) {
   if (v){load();}
-  else {E.showPrompt(); showMainMenu();}
+  else {E.showPrompt(); mainMenu();}
 });
 }
 
@@ -65,7 +65,7 @@ function startV60(){
   startTimer(30);
 }
 
-function showMainMenu() {
+function mainMenu() {
   g.clear();
   Bangle.loadWidgets();
   Bangle.drawWidgets(); 
@@ -80,8 +80,6 @@ function showMainMenu() {
 }
 // clear the screen
 g.clear();
-
-var n = 0;
 
 // redraw the screen
 function draw() {
@@ -109,4 +107,4 @@ Bangle.drawWidgets();
 
 // First draw...
 draw();
-showMainMenu();
+mainMenu();

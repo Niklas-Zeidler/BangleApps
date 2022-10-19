@@ -4,7 +4,7 @@ This app logs all your climbs to a simple csv file
 parameters are:
 * difficulty in french scale
 * style : [slab, vertical, overhang]
-* succss : whether you topped or not
+* success : whether you topped or not
 * discipline : [boulder, sport, trad, DWS]
 * where: [indoors, outdoors]
 
