@@ -1,25 +1,29 @@
 # App Name
 
-Describe the app...
+Simple logging app for your daily coffee brewing
 
 Add screen shots (if possible) to the app folder and link then into this file with ![](<name>.png)
 
 ## Usage
 
-Describe how to use it
+Choose one of the brewing methods and use the timer in your workflow while also logging your coffee consumption
 
 ## Features
 
-Name the function
+TODO
 
 ## Controls
 
-Name the buttons and what they are used for
+Touch control
 
 ## Requests
 
-Name who should be contacted for support/update requests
+mail(at)niklas.firlefanz.org
 
 ## Creator
 
-Your name
+Niklas Zeidler
+
+## TODO
+* add settings page to tweak brew times
+* add stats to look at logged consumption
