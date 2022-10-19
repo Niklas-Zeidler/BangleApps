@@ -1,14 +1,14 @@
-{ "id": "climb_logger",
+{ "id": "climbLogger",
   "name": "Climbing logger",
   "shortName":"Climb",
   "version":"0.03",
   "description": "An app to log all your climbs",
-  "icon": "climb_logger.png",
+  "icon": "climbLogger.png",
   "tags": "",
   "supports" : ["BANGLEJS2"],  
   "readme": "README.md",
   "storage": [
-    {"name":"climb_logger.app.js","url":"app.js"},
-    {"name":"climb_logger.img","url":"app-icon.js","evaluate":true}
+    {"name":"climbLogger.app.js","url":"app.js"},
+    {"name":"climbLogger.img","url":"app-icon.js","evaluate":true}
   ]
 }
