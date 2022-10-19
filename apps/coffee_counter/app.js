@@ -4,12 +4,15 @@ var file = require("Storage").open("coffee_log.csv","a");
 var finish_message = "Coffee done";
 
 function outOfTime() {
-  if (counterInterval) return;
-  E.showMessage(finish_message, "My coffee");
+  // E.showMessage(finish_message, "My coffee");
   Bangle.buzz();
-  Bangle.beep(200, 4000)
-    .then(() => new Promise(resolve => setTimeout(resolve,200)))
-    .then(() => Bangle.beep(200, 3000));
+  E.showPrompt(finish_message,{
+  title:"Coffee is done!",
+  buttons : {"Ok":true,"Again":false}
+}).then(function(v) {
+  if (v){load();}
+  else {E.showPrompt(); showMainMenu();}
+});
 }
 
 function countDown() {
@@ -63,6 +66,9 @@ function startV60(){
 }
 
 function showMainMenu() {
+  g.clear();
+  Bangle.loadWidgets();
+  Bangle.drawWidgets(); 
   const menu = {
     "": { "title": /*LANG*/"Coffee logger" },
     "< Back": () => load(),
