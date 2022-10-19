@@ -69,7 +69,7 @@ function mainMenu() {
   g.clear();
   Bangle.loadWidgets();
   Bangle.drawWidgets(); 
-  const menu = {
+  var menu = {
     "": { "title": /*LANG*/"Coffee logger" },
     "< Back": () => load(),
     /*LANG*/"Aeropress": () => startAeropress(),
